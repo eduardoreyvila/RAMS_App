@@ -1,0 +1,11 @@
+{
+  "name": "rams-relevamiento-pwa",
+  "version": "9.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PWA offline RAMS con jerarquía Cliente-Proyecto-Máquina/Línea-Zona-RAMS-Evidencias, almacenamiento local, Android, carpeta por cliente/proyecto, Excel por proyecto y GitHub Pages.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "preview": "python3 -m http.server 4173"
+  }
+}

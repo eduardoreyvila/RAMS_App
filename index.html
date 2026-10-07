@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17324d">
+<meta name="description" content="PWA para carga estructurada de evaluaciones RAMS">
+<link rel="icon" href="./icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<title>RAMS Relevamiento · v9</title>
+</head>
+<body>
+<div id="app">
+<header class="topbar">
+  <div class="brand"><div class="brand-logo"><img src="./logo-header.png" alt="Logo"></div><div><div class="eyebrow">RAMS · Risk Assessment</div><h1>RAMS Relevamiento</h1></div></div>
+  <div class="status"><span id="onlineDot"></span><span id="onlineText">Online</span></div>
+</header>
+
+<nav class="steps" aria-label="Navegación">
+  <button data-view="clients" class="step active"><b>1</b><span>Cliente</span></button>
+  <button data-view="projects" class="step"><b>2</b><span>Proyecto</span></button>
+  <button data-view="machines" class="step"><b>3</b><span>Máquina / Línea</span></button>
+  <button data-view="zones" class="step"><b>4</b><span>Zona</span></button>
+  <button data-view="assessment" class="step"><b>5</b><span>RAMS</span></button>
+  <button data-view="hazards" class="step"><b>6</b><span>Evaluación</span></button>
+  <button data-view="evidence" class="step"><b>7</b><span>Evidencias</span></button>
+</nav>
+
+<main id="main"></main>
+
+<footer>
+  <button id="installBtn" class="secondary hidden">Instalar APP</button>
+  <button id="exportBtn" class="secondary">📊 Excel del Proyecto</button>
+  <button id="backupBtn" class="secondary">Copia JSON</button>
+  <button id="clearBtn" class="danger">Borrar datos</button>
+</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
