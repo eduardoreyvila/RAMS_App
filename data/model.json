@@ -2,9 +2,12 @@
   "sourceWorkbook": "RAMS_WWTP_03-SCR-201 FILTROS v2.xlsb",
   "hierarchy": [
     "client",
+    "project",
     "machineLine",
+    "zone",
     "assessment",
-    "hazards"
+    "hazards",
+    "evidence"
   ],
   "coverFields": [
     [
@@ -671,6 +674,25 @@
       "Thermal",
       "Material_Substance",
       "Fire_Explosion"
+    ],
+    "Risk Assessment Type": [
+      "CENTRELINE"
+    ],
+    "Platform": [
+      "SNACKS"
+    ],
+    "Assessment Revision": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "Risk Reduction Status": [
+      "Open",
+      "In Progress",
+      "Implemented",
+      "Not Applicable"
     ]
   },
   "riskMappings": {

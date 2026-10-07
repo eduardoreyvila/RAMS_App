@@ -27,3 +27,8 @@ hr{border:0;border-top:1px solid var(--line);margin:16px 0}
 
 .summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}.summary-box{border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff;text-align:center}.summary-box strong{display:block;font-size:19px;color:var(--blue)}.summary-box span{display:block;font-size:10px;color:var(--muted);margin-top:2px}.sync-btn{min-height:42px}.folder-path{font-size:11px;color:var(--muted);word-break:break-word}.export-note{font-size:12px;line-height:1.45}.logo-card{display:flex;align-items:center;gap:12px}.logo-card img{width:64px;height:64px;object-fit:contain;border:1px solid var(--line);border-radius:12px;background:#fff}
 @media(max-width:560px){.summary-grid{grid-template-columns:repeat(2,1fr)}.brand-logo{width:40px;height:40px}.topbar h1{font-size:18px}}
+/* v10: landing screen deliberately does not display the large logo artwork. */
+.landing-card{min-height:0;display:block}
+.landing-copy{max-width:760px}
+.topbar .brand-logo img{width:42px;height:42px;object-fit:contain}
+.topbar .brand-logo{width:42px;height:42px;display:grid;place-items:center;overflow:hidden}
