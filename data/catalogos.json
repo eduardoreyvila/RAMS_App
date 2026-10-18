@@ -1,0 +1,26 @@
+{
+  "nota": "Catálogos iniciales de referencia. Verificar con el Excel oficial antes de uso técnico.",
+  "categorias_peligro": [
+    "Mecánicos",
+    "Eléctricos",
+    "Térmicos",
+    "Ruido y vibraciones",
+    "Radiaciones",
+    "Materiales y sustancias",
+    "Ergonómicos",
+    "Entorno de trabajo",
+    "Otros"
+  ],
+  "grupos_tarea": [
+    "Producción / operación",
+    "Preparación / puesta a punto",
+    "Limpieza",
+    "Mantenimiento",
+    "Reparación",
+    "Ajuste / cambio de formato",
+    "Desatasco",
+    "Inspección",
+    "Transporte / manipulación",
+    "Otra tarea"
+  ]
+}

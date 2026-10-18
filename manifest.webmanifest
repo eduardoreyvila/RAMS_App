@@ -1,0 +1,20 @@
+{
+  "name": "RAMS · HRN AVEC",
+  "short_name": "RAMS HRN",
+  "description": "Relevamiento de seguridad industrial y evaluación HRN",
+  "lang": "es-AR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7fa",
+  "theme_color": "#174f8b",
+  "icons": [
+    {
+      "src": "./assets/logo-avec-plumas-azules.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
